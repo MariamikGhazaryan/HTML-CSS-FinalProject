@@ -42,6 +42,9 @@ header {
 .header-navigation__left-list .header-navigation__left-list__item_link:hover {
   color: #b31459;
 }
+.header-navigation__left-list .header-navigation__left-list__item_link.active {
+  color: #b31459;
+}
 
 .header-navigation__logo {
   width: 200px;
@@ -60,6 +63,9 @@ header {
   text-decoration: none;
 }
 .header-navigation__right-list .header-navigation__right-list__item_link:hover {
+  color: #b31459;
+}
+.header-navigation__right-list .header-navigation__right-list__item_link.active {
   color: #b31459;
 }
 

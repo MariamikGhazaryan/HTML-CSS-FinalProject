@@ -42,6 +42,9 @@ header {
 .header-navigation__left-list .header-navigation__left-list__item_link:hover {
   color: #b31459;
 }
+.header-navigation__left-list .header-navigation__left-list__item_link.active {
+  color: #b31459;
+}
 
 .header-navigation__logo {
   width: 200px;
@@ -60,6 +63,9 @@ header {
   text-decoration: none;
 }
 .header-navigation__right-list .header-navigation__right-list__item_link:hover {
+  color: #b31459;
+}
+.header-navigation__right-list .header-navigation__right-list__item_link.active {
   color: #b31459;
 }
 
@@ -204,6 +210,9 @@ main {
 .team-portfolio .team-portfolio__image {
   width: 50%;
 }
+.team-portfolio__image {
+  align-self: flex-start;
+}
 
 .team-portfolio-container {
   background-color: #0a4a62;
@@ -213,6 +222,8 @@ main {
   justify-content: space-evenly;
   align-items: baseline;
   padding: 50px;
+  margin-top: 100px;
+  margin-left: -100px;
 }
 .team-portfolio-container .team-portfolio-container__heading {
   font-weight: 400;
@@ -233,6 +244,9 @@ main {
 .clients-portfolio .clients-portfolio__image {
   width: 50%;
 }
+.clients-portfolio__image {
+  align-self: flex-start;
+}
 
 .clients-portfolio-container {
   background-color: #0a4a62;
@@ -242,6 +256,8 @@ main {
   justify-content: space-evenly;
   align-items: baseline;
   padding: 50px;
+  margin-top: 100px;
+  margin-left: -100px;
 }
 .clients-portfolio-container .clients-portfolio-container__heading {
   font-weight: 400;

@@ -52,18 +52,30 @@ main {
 
 .team-portfolio {
   @include home.portfolio('team-portfolio');
+
+  &__image {
+    align-self: flex-start;
+  }
 }
 
 .team-portfolio-container {
   @include home.portfolio-item('team-portfolio-container', #0a4a62, #ffffff);
+  margin-top: 100px;
+  margin-left: -100px;
 }
 
 .clients-portfolio {
   @include home.portfolio('clients-portfolio');
+
+  &__image {
+    align-self: flex-start;
+  }
 }
 
 .clients-portfolio-container {
   @include home.portfolio-item('clients-portfolio-container', #0a4a62, #ffffff);
+  margin-top: 100px;
+  margin-left: -100px;
 }
 
 .follow-us {

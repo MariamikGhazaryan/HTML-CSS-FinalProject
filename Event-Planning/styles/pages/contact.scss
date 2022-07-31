@@ -17,23 +17,23 @@ main {
 .contact-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  column-gap: 50px;
+  column-gap: 3.125rem;
 }
 
 .contact-form {
   &-fieldset {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
     border: none;
   }
 
   &__heading {
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   &__sub-heading {
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
 }
 
@@ -76,12 +76,12 @@ main {
 }
 
 .hint {
-  font-size: 0.7em;
-  margin-top: -2px;
+  font-size: 0.7rem;
+  margin-top: -0.125rem;
 }
 
 .button {
-  padding: 13px 26px;
+  padding: 0.813rem 1.625rem;
   color: #081453;
   border: 2px solid #081453;
   background-color: transparent;
@@ -98,5 +98,5 @@ main {
 .contact-info {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 3.125rem;
 }

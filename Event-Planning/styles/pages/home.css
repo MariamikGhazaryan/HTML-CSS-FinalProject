@@ -3,14 +3,13 @@
 body {
   box-sizing: border-box;
   font-family: "Arima Madurai", cursive;
-  font-size: 16px;
 }
 
 a {
   color: #b31459;
 }
 a:hover, a:active {
-  color: #b31459;
+  color: #dc5791;
 }
 a:hover {
   opacity: 0.6;
@@ -33,7 +32,7 @@ header {
   list-style-type: none;
 }
 .header-navigation__left-list .header-navigation__left-list__item {
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 .header-navigation__left-list .header-navigation__left-list__item_link {
   color: #094962;
@@ -47,7 +46,7 @@ header {
 }
 
 .header-navigation__logo {
-  width: 200px;
+  width: 12.5rem;
   height: auto;
 }
 
@@ -56,7 +55,7 @@ header {
   list-style-type: none;
 }
 .header-navigation__right-list .header-navigation__right-list__item {
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 .header-navigation__right-list .header-navigation__right-list__item_link {
   color: #094962;
@@ -73,7 +72,7 @@ footer {
   background-color: #0a4a62;
   color: #ffffff;
   text-align: center;
-  padding: 30px 0;
+  padding: 1.875rem 0;
   font-weight: 200;
 }
 
@@ -85,7 +84,7 @@ footer {
   margin: 0 auto;
 }
 .footer-container__contact-us {
-  padding: 13px 26px;
+  padding: 0.813rem 1.625rem;
   color: #0a4a62;
   background-color: white;
   text-decoration: none;
@@ -95,7 +94,7 @@ footer {
 .footer-container-logos-list {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 0.625rem;
   list-style-type: none;
   padding: 0;
 }
@@ -103,7 +102,7 @@ footer {
 .footer-container-logos-list__item_link {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 .footer-container-logos-list__item_link:hover {
   color: #b31459;
@@ -112,10 +111,10 @@ footer {
 main {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  line-height: 2em;
-  letter-spacing: 0.09em;
-  padding: 20px 60px;
+  gap: 3.125rem;
+  line-height: 2rem;
+  letter-spacing: 0.09rem;
+  padding: 1.25rem 3.75rem;
   background-color: white;
   color: #094962;
   text-align: center;
@@ -124,7 +123,7 @@ main {
 
 .main-image {
   width: 100%;
-  max-height: 800px;
+  max-height: 50rem;
   object-fit: cover;
 }
 
@@ -135,10 +134,10 @@ main {
 }
 .about-brilliant__heading {
   font-weight: 400;
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 .about-brilliant__link {
-  padding: 13px 26px;
+  padding: 0.813rem 1.625rem;
   color: #fff;
   background-color: #b31459;
   text-decoration: none;
@@ -147,7 +146,7 @@ main {
 
 .wedding-portfolio {
   display: flex;
-  max-height: 600px;
+  max-height: 37.5rem;
 }
 .wedding-portfolio .wedding-portfolio__image {
   width: 50%;
@@ -160,14 +159,14 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: baseline;
-  padding: 50px;
+  padding: 3.125rem;
 }
 .wedding-portfolio-container .wedding-portfolio-container__heading {
   font-weight: 400;
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 .wedding-portfolio-container .wedding-portfolio-container__link {
-  padding: 13px 26px;
+  padding: 0.813rem 1.625rem;
   color: #fff;
   background-color: #b31459;
   text-decoration: none;
@@ -176,7 +175,7 @@ main {
 
 .services-portfolio {
   display: flex;
-  max-height: 600px;
+  max-height: 37.5rem;
 }
 .services-portfolio .services-portfolio__image {
   width: 50%;
@@ -189,14 +188,14 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: baseline;
-  padding: 50px;
+  padding: 3.125rem;
 }
 .services-portfolio-container .services-portfolio-container__heading {
   font-weight: 400;
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 .services-portfolio-container .services-portfolio-container__link {
-  padding: 13px 26px;
+  padding: 0.813rem 1.625rem;
   color: #fff;
   background-color: #b31459;
   text-decoration: none;
@@ -205,7 +204,7 @@ main {
 
 .team-portfolio {
   display: flex;
-  max-height: 600px;
+  max-height: 37.5rem;
 }
 .team-portfolio .team-portfolio__image {
   width: 50%;
@@ -221,16 +220,16 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: baseline;
-  padding: 50px;
-  margin-top: 100px;
-  margin-left: -100px;
+  padding: 3.125rem;
+  margin-top: 6.25rem;
+  margin-left: -6.25rem;
 }
 .team-portfolio-container .team-portfolio-container__heading {
   font-weight: 400;
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 .team-portfolio-container .team-portfolio-container__link {
-  padding: 13px 26px;
+  padding: 0.813rem 1.625rem;
   color: #fff;
   background-color: #b31459;
   text-decoration: none;
@@ -239,7 +238,7 @@ main {
 
 .clients-portfolio {
   display: flex;
-  max-height: 600px;
+  max-height: 37.5rem;
 }
 .clients-portfolio .clients-portfolio__image {
   width: 50%;
@@ -255,16 +254,16 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: baseline;
-  padding: 50px;
-  margin-top: 100px;
-  margin-left: -100px;
+  padding: 3.125rem;
+  margin-top: 12rem;
+  margin-left: -6.25rem;
 }
 .clients-portfolio-container .clients-portfolio-container__heading {
   font-weight: 400;
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 .clients-portfolio-container .clients-portfolio-container__link {
-  padding: 13px 26px;
+  padding: 0.813rem 1.625rem;
   color: #fff;
   background-color: #b31459;
   text-decoration: none;
@@ -275,7 +274,7 @@ main {
   text-align: center;
 }
 .follow-us__heading {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .follow-us-list {
@@ -284,8 +283,8 @@ main {
   justify-content: space-between;
 }
 .follow-us-list__item-image {
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height: 12.5rem;
   object-fit: cover;
 }
 

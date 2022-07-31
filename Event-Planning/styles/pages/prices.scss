@@ -1,0 +1,81 @@
+@use "../base/base";
+@use "../layout/header";
+@use "../layout/footer";
+@use "../saas-utils/main";
+@use "../saas-utils/services";
+@use "../saas-utils/button";
+@use "../saas-utils/main-image";
+
+.main-image-figure {
+  @include main-image.main-image;
+}
+
+main {
+  @include main.main(#e9eaec, #094962);
+}
+
+.prices-table {
+  width: 100%;
+  margin-top: 3.125rem;
+  padding: 3.125rem 0;
+
+  &__heading {
+    font-size: 2rem;
+  }
+}
+
+.prices-table-header {
+  background-color: #b31459;
+  color: white;
+}
+
+.prices-table-body {
+  text-align: left;
+
+  &__row {
+    td {
+      padding: 0 1.25rem;
+    }
+  }
+}
+
+$tableRows: 1, 2, 3, 4, 5, 6;
+
+@each $row in $tableRows {
+  @debug $row;
+  .prices-table-body__row:nth-child(#{$row}) {
+    .prices-table-body__row-image {
+      background-image: url("../../assets/images/prices/price-#{$row}.jpeg");
+      background-size: contain;
+      width: 20%;
+      height: 6.25rem;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+
+.prices-table-body__row-like {
+  width: 0.625rem;
+  text-align: center;
+
+  &-icon {
+    color: #b31459;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+.prices-table-body__row:nth-child(even) {
+  background-color: #dadadd;
+}
+
+.prices-table-body__row:nth-child(odd) {
+  background-color: #f7ebef;
+}
+
+.prices-button {
+  @include button.button-link(#b31459, #fff);
+}

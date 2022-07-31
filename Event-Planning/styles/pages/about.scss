@@ -15,7 +15,7 @@ main {
 }
 
 .experience__heading, .meet-employees__heading, .join-us__heading {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .experience-icon-list {
@@ -27,7 +27,7 @@ main {
 
   &__item {
     &-image {
-      width: 100px;
+      width: 6.25rem;
     }
   }
 }
@@ -36,12 +36,12 @@ main {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   text-align: left;
 
   &__item {
     &-image {
-      width: 500px;
+      width: 31.25rem;
     }
 
     &-caption {
@@ -59,20 +59,20 @@ main {
 
 .sign-up {
   &__privacy-info {
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
 }
 
 .sign-up__form {
   &-email {
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     border: 1px solid rgba(0, 0, 0, .12);
     font-family: inherit;
-    width: 200px;
+    width: 12.5rem;
   }
 
   &-submit {
-    padding: 11px 20px;
+    padding: 0.688rem 1.25rem;
     background-color: transparent;
     color: #b31459;
     border: 2px solid #b31459;

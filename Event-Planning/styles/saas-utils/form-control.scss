@@ -1,5 +1,5 @@
 @mixin input() {
-  padding: 15px;
+  padding: 0.938rem;
   border: 1px solid #ccc;
   background: #fafafa;
   border-radius: 2px;
@@ -11,5 +11,5 @@
 
 @mixin textarea() {
   font-family: inherit;
-  padding: 15px;
+  padding: 0.938rem;
 }

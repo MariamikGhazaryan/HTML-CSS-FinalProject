@@ -3,14 +3,13 @@
 body {
   box-sizing: border-box;
   font-family: "Arima Madurai", cursive;
-  font-size: 16px;
 }
 
 a {
   color: #b31459;
 }
 a:hover, a:active {
-  color: #b31459;
+  color: #dc5791;
 }
 a:hover {
   opacity: 0.6;
@@ -33,7 +32,7 @@ header {
   list-style-type: none;
 }
 .header-navigation__left-list .header-navigation__left-list__item {
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 .header-navigation__left-list .header-navigation__left-list__item_link {
   color: #094962;
@@ -47,7 +46,7 @@ header {
 }
 
 .header-navigation__logo {
-  width: 200px;
+  width: 12.5rem;
   height: auto;
 }
 
@@ -56,7 +55,7 @@ header {
   list-style-type: none;
 }
 .header-navigation__right-list .header-navigation__right-list__item {
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 .header-navigation__right-list .header-navigation__right-list__item_link {
   color: #094962;
@@ -73,7 +72,7 @@ footer {
   background-color: #0a4a62;
   color: #ffffff;
   text-align: center;
-  padding: 30px 0;
+  padding: 1.875rem 0;
   font-weight: 200;
 }
 
@@ -85,7 +84,7 @@ footer {
   margin: 0 auto;
 }
 .footer-container__contact-us {
-  padding: 13px 26px;
+  padding: 0.813rem 1.625rem;
   color: #0a4a62;
   background-color: white;
   text-decoration: none;
@@ -95,7 +94,7 @@ footer {
 .footer-container-logos-list {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 0.625rem;
   list-style-type: none;
   padding: 0;
 }
@@ -103,7 +102,7 @@ footer {
 .footer-container-logos-list__item_link {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 .footer-container-logos-list__item_link:hover {
   color: #b31459;
@@ -114,15 +113,15 @@ footer {
 }
 .main-image-figure .main-image-figure__image {
   width: 100%;
-  max-height: 800px;
+  max-height: 50rem;
   object-fit: cover;
   filter: brightness(50%);
 }
 .main-image-figure .main-image-figure__caption {
   position: absolute;
-  bottom: -90px;
-  left: 50px;
-  font-size: 4em;
+  bottom: -5.625rem;
+  left: 3.125rem;
+  font-size: 4rem;
   color: white;
   text-transform: uppercase;
 }
@@ -133,17 +132,17 @@ footer {
 main {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  line-height: 2em;
-  letter-spacing: 0.09em;
-  padding: 20px 60px;
+  gap: 3.125rem;
+  line-height: 2rem;
+  letter-spacing: 0.09rem;
+  padding: 1.25rem 3.75rem;
   background-color: #e9eaec;
   color: #094962;
   text-align: center;
 }
 
 .experience__heading, .meet-employees__heading, .join-us__heading {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .experience-icon-list {
@@ -154,18 +153,18 @@ main {
   list-style-type: none;
 }
 .experience-icon-list__item-image {
-  width: 100px;
+  width: 6.25rem;
 }
 
 .meet-employees-list {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   text-align: left;
 }
 .meet-employees-list__item-image {
-  width: 500px;
+  width: 31.25rem;
 }
 .meet-employees-list__item-caption {
   display: flex;
@@ -173,7 +172,7 @@ main {
   align-items: flex-start;
 }
 .meet-employees-list__item-link {
-  padding: 13px 26px;
+  padding: 0.813rem 1.625rem;
   color: #fff;
   background-color: #b31459;
   text-decoration: none;
@@ -181,17 +180,17 @@ main {
 }
 
 .sign-up__privacy-info {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 .sign-up__form-email {
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   border: 1px solid rgba(0, 0, 0, 0.12);
   font-family: inherit;
-  width: 200px;
+  width: 12.5rem;
 }
 .sign-up__form-submit {
-  padding: 11px 20px;
+  padding: 0.688rem 1.25rem;
   background-color: transparent;
   color: #b31459;
   border: 2px solid #b31459;

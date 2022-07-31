@@ -3,16 +3,16 @@
 
   .main-image-figure__image {
     width: 100%;
-    max-height: 800px;
+    max-height: 50rem;
     object-fit: cover;
     filter: brightness(50%);
   }
 
   .main-image-figure__caption {
     position: absolute;
-    bottom: -90px;
-    left: 50px;
-    font-size: 4em;
+    bottom: -5.625rem;
+    left: 3.125rem;
+    font-size: 4rem;
     color: #ffff;
     text-transform: uppercase;
 

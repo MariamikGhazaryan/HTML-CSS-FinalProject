@@ -3,14 +3,13 @@
 body {
   box-sizing: border-box;
   font-family: "Arima Madurai", cursive;
-  font-size: 16px;
 }
 
 a {
   color: #b31459;
 }
 a:hover, a:active {
-  color: #b31459;
+  color: #dc5791;
 }
 a:hover {
   opacity: 0.6;
@@ -33,7 +32,7 @@ header {
   list-style-type: none;
 }
 .header-navigation__left-list .header-navigation__left-list__item {
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 .header-navigation__left-list .header-navigation__left-list__item_link {
   color: #094962;
@@ -47,7 +46,7 @@ header {
 }
 
 .header-navigation__logo {
-  width: 200px;
+  width: 12.5rem;
   height: auto;
 }
 
@@ -56,7 +55,7 @@ header {
   list-style-type: none;
 }
 .header-navigation__right-list .header-navigation__right-list__item {
-  padding-right: 20px;
+  padding-right: 1.25rem;
 }
 .header-navigation__right-list .header-navigation__right-list__item_link {
   color: #094962;
@@ -73,7 +72,7 @@ footer {
   background-color: #0a4a62;
   color: #ffffff;
   text-align: center;
-  padding: 30px 0;
+  padding: 1.875rem 0;
   font-weight: 200;
 }
 
@@ -85,7 +84,7 @@ footer {
   margin: 0 auto;
 }
 .footer-container__contact-us {
-  padding: 13px 26px;
+  padding: 0.813rem 1.625rem;
   color: #0a4a62;
   background-color: white;
   text-decoration: none;
@@ -95,7 +94,7 @@ footer {
 .footer-container-logos-list {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 0.625rem;
   list-style-type: none;
   padding: 0;
 }
@@ -103,7 +102,7 @@ footer {
 .footer-container-logos-list__item_link {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 .footer-container-logos-list__item_link:hover {
   color: #b31459;
@@ -112,10 +111,10 @@ footer {
 main {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  line-height: 2em;
-  letter-spacing: 0.09em;
-  padding: 20px 60px;
+  gap: 3.125rem;
+  line-height: 2rem;
+  letter-spacing: 0.09rem;
+  padding: 1.25rem 3.75rem;
   background-color: #e9eaec;
   color: #0a4a62;
   text-align: center;
@@ -127,15 +126,15 @@ main {
 }
 .main-image-figure .main-image-figure__image {
   width: 100%;
-  max-height: 800px;
+  max-height: 50rem;
   object-fit: cover;
   filter: brightness(50%);
 }
 .main-image-figure .main-image-figure__caption {
   position: absolute;
-  bottom: -90px;
-  left: 50px;
-  font-size: 4em;
+  bottom: -5.625rem;
+  left: 3.125rem;
+  font-size: 4rem;
   color: white;
   text-transform: uppercase;
 }
@@ -146,24 +145,24 @@ main {
 .contact-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  column-gap: 50px;
+  column-gap: 3.125rem;
 }
 
 .contact-form-fieldset {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
   border: none;
 }
 .contact-form__heading {
-  font-size: 2em;
+  font-size: 2rem;
 }
 .contact-form__sub-heading {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 .input {
-  padding: 15px;
+  padding: 0.938rem;
   border: 1px solid #ccc;
   background: #fafafa;
   border-radius: 2px;
@@ -197,16 +196,16 @@ main {
 
 .textarea {
   font-family: inherit;
-  padding: 15px;
+  padding: 0.938rem;
 }
 
 .hint {
-  font-size: 0.7em;
-  margin-top: -2px;
+  font-size: 0.7rem;
+  margin-top: -0.125rem;
 }
 
 .button {
-  padding: 13px 26px;
+  padding: 0.813rem 1.625rem;
   color: #081453;
   border: 2px solid #081453;
   background-color: transparent;
@@ -223,7 +222,7 @@ main {
 .contact-info {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 3.125rem;
 }
 
 /*# sourceMappingURL=contact.css.map */

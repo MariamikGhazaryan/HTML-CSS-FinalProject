@@ -1,0 +1,80 @@
+@use "../base/base";
+@use "../layout/header";
+@use "../layout/footer";
+@use "../saas-utils/main";
+@use "../saas-utils/services";
+@use "../saas-utils/button";
+@use "../saas-utils/main-image";
+
+.main-image-figure {
+  @include main-image.main-image;
+}
+
+main {
+  @include main.main(#e9eaec, #094962);
+}
+
+.experience__heading, .meet-employees__heading, .join-us__heading {
+  font-size: 2em;
+}
+
+.experience-icon-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+
+  &__item {
+    &-image {
+      width: 100px;
+    }
+  }
+}
+
+.meet-employees-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  font-size: 0.8em;
+  text-align: left;
+
+  &__item {
+    &-image {
+      width: 500px;
+    }
+
+    &-caption {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    &-link {
+      @include button.button-link(#b31459, #fff);
+    }
+
+  }
+}
+
+.sign-up {
+  &__privacy-info {
+    font-size: 0.8em;
+  }
+}
+
+.sign-up__form {
+  &-email {
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, .12);
+    font-family: inherit;
+    width: 200px;
+  }
+
+  &-submit {
+    padding: 11px 20px;
+    background-color: transparent;
+    color: #b31459;
+    border: 2px solid #b31459;
+  }
+}

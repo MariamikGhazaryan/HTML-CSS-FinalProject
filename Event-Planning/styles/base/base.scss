@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;300;500;700&display=swap');
+
+body {
+  box-sizing: border-box;
+  font-family: 'Arima Madurai', cursive;
+  font-size: 16px;
+}
+
+a {
+  color: #b31459;
+
+  &:hover, &:active {
+    color: #b31459;
+  }
+
+  &:hover {
+    opacity: 0.6;
+  }
+}

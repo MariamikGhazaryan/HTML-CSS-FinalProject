@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact us</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/pages/contact.css">
+
+    <!-- Favicon Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+</head>
+<body>
+<header>
+    <nav class="header-navigation">
+        <ul class="header-navigation__left-list">
+            <li class="header-navigation__left-list__item">
+                <a class="header-navigation__left-list__item_link" href="home.html">Home</a>
+            </li>
+            <li class="header-navigation__left-list__item">
+                <a class="header-navigation__left-list__item_link" href="services.html">Services</a>
+            </li>
+            <li class="header-navigation__left-list__item">
+                <a class="header-navigation__left-list__item_link" href="about.html">About</a>
+            </li>
+        </ul>
+        <img alt="Brilliant Event Planning" class="header-navigation__logo" src="assets/logos/main-logo.jpeg">
+        <ul class="header-navigation__right-list">
+            <li class="header-navigation__right-list__item">
+                <a class="header-navigation__right-list__item_link" href="blog.html">Blog</a>
+            </li>
+            <li class="header-navigation__right-list__item">
+                <a class="header-navigation__right-list__item_link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<figure class="main-image-figure">
+    <img alt="About image" class="main-image-figure__image" src="assets/images/contact/main-image.jpeg">
+    <figcaption class="main-image-figure__caption">
+        <h2>
+            Say Hello
+        </h2>
+    </figcaption>
+</figure>
+<main>
+    <section class="contact-container">
+        <form class="contact-form">
+            <fieldset class="contact-form-fieldset">
+                <legend class="contact-form__heading">Contact Us</legend>
+                <p class="contact-form__sub-heading">We would love to hear from you! To get started planning your
+                    <a href="https://brillianteventplanning.com/weddings" target="_blank">wedding</a> or
+                    <a href="https://brillianteventplanning.com/events" target="_blank">event</a>,
+                    please fill out the below form or email us at sarahg@brillianteventplanning.com. </p>
+                <label for="name" class="contact-form-label">
+                    Name *
+                    <span id="name" class="contact-form-name-container">
+                        <span class="contact-form-name__firstname">
+                            <input type="text"
+                                   class="input"
+                                   name="firstName"
+                                   value=""
+                                   required
+                                   minlength="2"
+                                   maxlength="50">
+                            <span class="hint">First Name</span>
+                        </span>
+                        <span class="contact-form-name__lastname">
+                            <input type="text"
+                                   name="lastName"
+                                   class="input"
+                                   value=""
+                                   required
+                                   minlength="2"
+                                   maxlength="50">
+                            <span class="hint">Last Name</span>
+                        </span>
+                    </span>
+                </label>
+                <label for="email" class="contact-form-label">
+                    Email Address *
+                    <input type="email"
+                           class="input"
+                           id="email"
+                           name="email"
+                           value=""
+                           required>
+                </label>
+                <label for="subject" class="contact-form-label">
+                    Subject
+                    <input type="text"
+                           class="input"
+                           id="subject"
+                           name="subject"
+                           value="">
+                </label>
+                <label for="date" class="contact-form-label">
+                    Event Date
+                    <input type="date"
+                           id="date"
+                           class="input date"
+                           name="date"
+                           value="">
+                </label>
+                <label for="about-event" class="contact-form-label">
+                    Tell us about your event *
+                    <textarea
+                            id="about-event"
+                            name="aboutEvent"
+                            class="input textarea"
+                            required
+                            maxlength="500"
+                            cols="4"></textarea>
+                </label>
+                <label for="budget" class="contact-form-label">
+                    Overall Event Budget *
+                    <input
+                            type="number"
+                            id="budget"
+                            name="Budget"
+                            class="input"
+                            value=""
+                            required>
+                </label>
+                <label for="location" class="contact-form-label">
+                    Location *
+                    <span class="hint">We have offices in both NYC and Boston. Which office is most convenient for you?</span>
+                    <select id="location" name="location" required class="input">
+                        <option value="boston" selected>Boston</option>
+                        <option value="newYork">New York City</option>
+                    </select>
+                </label>
+                <button type="submit" class="button">Submit</button>
+            </fieldset>
+        </form>
+        <div class="contact-info-container">
+            <div class="contact-info">
+                <div>
+                    <div>
+                        <p>
+                            <a href="https://brillianteventplanning.com/nyc-wedding-planner" target="_blank">NEW YORK
+                                CITY</a>
+                            | 917.789.6656
+                        </p>
+                        <p>chelsea@brillianteventplanning.com</p>
+                    </div>
+                    <div>
+                        <address>
+                            115 E 23rd Street, 3rd Floor
+                            <br>
+                            New York, New York 10010
+                        </address>
+                        <p class="hint">*By appointment only</p>
+                    </div>
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d755.74945148613!2d-73.9860593707825!3d40.74007379870804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a0d0b9669b%3A0x340a10a9c40beae!2s115%20E%2023rd%20St%203rd%20floor%2C%20New%20York%2C%20NY%2010010%2C%20USA!5e0!3m2!1sen!2s!4v1659260971705!5m2!1sen!2s"
+                            width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div>
+                    <div>
+                        <p>
+                            <a href="https://brillianteventplanning.com/boston-wedding-planner"
+                               target="_blank">BOSTON</a>
+                            | 617.841.7674
+                        </p>
+                        <p>sarahg@brillianteventplanning.com</p>
+                    </div>
+                    <div>
+                        <address>
+                            292 Newbury Street, #291
+                            <br>
+                            Boston, MA 02115
+                        </address>
+                        <p class="hint">*Mail only</p>
+                    </div>
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d737.1767655742495!2d-71.08526657077937!3d42.34876849869923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a0f8cf9a0a3%3A0x3c223fb83a49a90b!2s292%20Newbury%20St%2C%20Boston%2C%20MA%2002115%2C%20USA!5e0!3m2!1sen!2s!4v1659261042827!5m2!1sen!2s"
+                            width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer-container">
+        <p class="footer-container__info">
+            Top wedding and event planner and luxury design studio with offices in Boston and New York City. New
+            England wedding planner serving New York, Boston, Cape Cod, Nantucket, Newport, Rhode Island, The
+            Hamptons, Maine & Destinations in Europe, Mexico, and beyond.
+        </p>
+        <a class="footer-container__contact-us">Contact us</a>
+        <ul class="footer-container-logos-list">
+            <li class="footer-container-logos-list__item">
+                <a href="https://www.facebook.com/brillianteventplanning/"
+                   class="fa fa-facebook footer-container-logos-list__item_link" target="_blank"></a>
+            </li>
+            <li class="footer-container-logos-list__item">
+                <a href="https://www.pinterest.com/brillianteventp/"
+                   class="fa fa-pinterest footer-container-logos-list__item_link" target="_blank"></a>
+            </li>
+            <li class="footer-container-logos-list__item">
+                <a href="https://www.instagram.com/brillianteventplanning/"
+                   class="fa fa-instagram footer-container-logos-list__item_link" target="_blank"></a>
+            </li>
+        </ul>
+    </div>
+    <p>©2008-2022 Brilliant Event Planning™ LLC, All rights reserved </p>
+</footer>
+</body>
+</html>

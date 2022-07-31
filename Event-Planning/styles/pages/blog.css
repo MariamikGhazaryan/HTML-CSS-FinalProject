@@ -1,0 +1,204 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;300;500;700&display=swap");
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+  box-sizing: border-box;
+  font-family: "Arima Madurai", cursive;
+  font-size: 16px;
+}
+
+a {
+  color: #b31459;
+}
+a:hover, a:active {
+  color: #b31459;
+}
+a:hover {
+  opacity: 0.6;
+}
+
+header {
+  font-weight: 300;
+  background: #fff;
+  text-transform: uppercase;
+}
+
+.header-navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-navigation__left-list {
+  display: flex;
+  list-style-type: none;
+}
+.header-navigation__left-list .header-navigation__left-list__item {
+  padding-right: 20px;
+}
+.header-navigation__left-list .header-navigation__left-list__item_link {
+  color: #094962;
+  text-decoration: none;
+}
+.header-navigation__left-list .header-navigation__left-list__item_link:hover {
+  color: #b31459;
+}
+
+.header-navigation__logo {
+  width: 200px;
+  height: auto;
+}
+
+.header-navigation__right-list {
+  display: flex;
+  list-style-type: none;
+}
+.header-navigation__right-list .header-navigation__right-list__item {
+  padding-right: 20px;
+}
+.header-navigation__right-list .header-navigation__right-list__item_link {
+  color: #094962;
+  text-decoration: none;
+}
+.header-navigation__right-list .header-navigation__right-list__item_link:hover {
+  color: #b31459;
+}
+
+footer {
+  background-color: #0a4a62;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 0;
+  font-weight: 200;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.footer-container__contact-us {
+  padding: 13px 26px;
+  color: #0a4a62;
+  background-color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-container-logos-list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-container-logos-list__item_link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+.footer-container-logos-list__item_link:hover {
+  color: #b31459;
+}
+
+.main-image-figure {
+  margin: 0;
+}
+.main-image-figure .main-image-figure__image {
+  width: 100%;
+  max-height: 800px;
+  object-fit: cover;
+}
+.main-image-figure .main-image-figure__caption {
+  position: absolute;
+  bottom: -90px;
+  left: 50px;
+  font-size: 4em;
+  color: white;
+  text-transform: uppercase;
+}
+.main-image-figure .main-image-figure__caption p {
+  font-size: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  line-height: 2em;
+  letter-spacing: 0.09em;
+  padding: 20px 60px;
+  background-color: #e9eaec;
+  color: #094962;
+  text-align: center;
+}
+
+.blogs-section {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  column-gap: 50px;
+}
+.blogs-section-blogs-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+}
+.blogs-section-blogs-list__item {
+  width: 30%;
+}
+.blogs-section-blogs-list__item-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.blogs-section-blogs-list__item-date {
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+}
+.blogs-section-blogs-list__item-info {
+  font-size: 0.8em;
+  color: black;
+}
+.blogs-section-blogs-list__item-link {
+  text-decoration: none;
+}
+.blogs-section-blogs-list__item-link:after {
+  content: "→";
+  padding-left: 0.7em;
+}
+
+.blog-section-navigation-container {
+  padding: 15px 20px;
+  background: rgba(236, 225, 218, 0.4588235294);
+  height: 230px;
+  text-align: left;
+}
+
+.blog-section-navigation-list {
+  padding: 0;
+  list-style-type: none;
+  text-decoration: underline;
+  font-size: 0.8em;
+}
+.blog-section-navigation__search {
+  position: relative;
+}
+.blog-section-navigation__search-input {
+  border: 1px solid #ffffff;
+  padding: 15px 30px;
+  background-color: transparent;
+}
+.blog-section-navigation__search-icon {
+  position: absolute;
+  top: 16px;
+  left: 7px;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=blog.css.map */

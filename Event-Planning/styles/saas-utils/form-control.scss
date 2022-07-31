@@ -1,0 +1,15 @@
+@mixin input() {
+  padding: 15px;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  border-radius: 2px;
+}
+
+@mixin date() {
+  font-family: inherit;
+}
+
+@mixin textarea() {
+  font-family: inherit;
+  padding: 15px;
+}

@@ -1,0 +1,99 @@
+@use "../base/base";
+@use "../layout/header";
+@use "../layout/footer";
+@use "../saas-utils/main";
+@use "../saas-utils/main-image";
+
+.main-image-figure {
+  @include main-image.main-image;
+}
+
+main {
+  @include main.main(#e9eaec, #094962);
+}
+
+
+.blogs-section {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  column-gap: 50px;
+
+  &-list-container {
+
+  }
+}
+
+.blogs-section-blogs-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+
+  &__item {
+    width: 30%;
+
+    &-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    &-heading {
+    }
+
+    &-date {
+      font-size: 0.8em;
+      letter-spacing: 0.2em;
+    }
+
+    &-info {
+      font-size: 0.8em;
+      color: black;
+    }
+
+    &-link {
+      text-decoration: none;
+
+      &:after {
+        content: "\2192";
+        padding-left: 0.7em;
+      }
+    }
+  }
+}
+
+.blog-section-navigation-container {
+  padding: 15px 20px;
+  background: #ECE1DA75;
+  height: 230px;
+  text-align: left;
+}
+
+.blog-section-navigation-list {
+  padding: 0;
+  list-style-type: none;
+  text-decoration: underline;
+  font-size: 0.8em;
+
+  &__item {
+  }
+}
+
+.blog-section-navigation__search {
+  position: relative;
+
+  &-input {
+    border: 1px solid #ffffff;
+    padding: 15px 30px;
+    background-color: transparent;
+  }
+
+  &-icon {
+    position: absolute;
+    top: 16px;
+    left: 7px;
+    color: #ffffff;
+  }
+}

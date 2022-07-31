@@ -1,0 +1,25 @@
+@use "../base/base";
+@use "../layout/header";
+@use "../layout/footer";
+@use "../saas-utils/services";
+@use "../saas-utils/main";
+
+main {
+  @include main.main(#e9eaec, #094962);
+}
+
+.services-image-list {
+  @include services.images-list('services-image-list');
+}
+
+.full-wedding-planning-image-list {
+  @include services.images-list('full-wedding-planning-image-list');
+}
+
+.dest-wedding-planning-image-list {
+  @include services.images-list('dest-wedding-planning-image-list');
+}
+
+.event-planning-image-list {
+  @include services.images-list('event-planning-image-list');
+}

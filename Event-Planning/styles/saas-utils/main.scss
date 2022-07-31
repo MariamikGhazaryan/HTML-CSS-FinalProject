@@ -1,0 +1,11 @@
+@mixin main($backgroundColor, $color) {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  line-height: 2em;
+  letter-spacing: 0.09em;
+  padding: 20px 60px;
+  background-color: #{$backgroundColor};
+  color: #{$color};
+  text-align: center;
+}

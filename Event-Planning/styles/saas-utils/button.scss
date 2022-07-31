@@ -1,0 +1,7 @@
+@mixin button-link($backgroundColor, $color) {
+  padding: 13px 26px;
+  color: $color;
+  background-color: $backgroundColor;
+  text-decoration: none;
+  text-transform: uppercase;
+}

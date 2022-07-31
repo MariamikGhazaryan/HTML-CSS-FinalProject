@@ -1,0 +1,89 @@
+@use "../base/base";
+@use "../layout/header";
+@use "../layout/footer";
+@use "../saas-utils/home";
+@use "../saas-utils/main";
+
+main {
+  @include main.main(#ffff, #094962);
+  text-align: left;
+}
+
+.main-image {
+  width: 100%;
+  max-height: 800px;
+  object-fit: cover;
+}
+
+.about-brilliant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__heading {
+    font-weight: 400;
+    font-size: 2.5em;
+  }
+
+  &__link {
+    padding: 13px 26px;
+    color: #fff;
+    background-color: #b31459;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+.wedding-portfolio {
+  @include home.portfolio('wedding-portfolio');
+}
+
+.wedding-portfolio-container {
+  @include home.portfolio-item('wedding-portfolio-container', #ede1d9, #094962);
+}
+
+.services-portfolio {
+  @include home.portfolio('services-portfolio');
+}
+
+.services-portfolio-container {
+  @include home.portfolio-item('services-portfolio-container', #ede1d9, #094962);
+}
+
+.team-portfolio {
+  @include home.portfolio('team-portfolio');
+}
+
+.team-portfolio-container {
+  @include home.portfolio-item('team-portfolio-container', #0a4a62, #ffffff);
+}
+
+.clients-portfolio {
+  @include home.portfolio('clients-portfolio');
+}
+
+.clients-portfolio-container {
+  @include home.portfolio-item('clients-portfolio-container', #0a4a62, #ffffff);
+}
+
+.follow-us {
+  text-align: center;
+
+  &__heading {
+    font-size: 2em;
+  }
+}
+
+.follow-us-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+
+  &__item {
+    &-image {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+}

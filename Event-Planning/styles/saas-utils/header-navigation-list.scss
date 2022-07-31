@@ -1,0 +1,17 @@
+@mixin list($listName) {
+  display: flex;
+  list-style-type: none;
+
+  .#{$listName}__item {
+    padding-right: 20px;
+
+    &_link {
+      color: #094962;
+      text-decoration: none;
+
+      &:hover {
+        color: #b31459;
+      }
+    }
+  }
+}

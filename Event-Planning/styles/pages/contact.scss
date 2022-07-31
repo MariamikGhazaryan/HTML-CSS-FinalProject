@@ -1,0 +1,102 @@
+@use "../base/base";
+@use "../layout/header";
+@use "../layout/footer";
+@use "../saas-utils/main";
+@use "../saas-utils/main-image";
+@use "../saas-utils/form-control";
+
+main {
+  @include main.main(#e9eaec, #0a4a62);
+  text-align: left;
+}
+
+.main-image-figure {
+  @include main-image.main-image;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 50px;
+}
+
+.contact-form {
+  &-fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+  }
+
+  &__heading {
+    font-size: 2em;
+  }
+
+  &__sub-heading {
+    font-size: 0.8em;
+  }
+}
+
+.input {
+  @include form-control.input();
+}
+
+.contact-form-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-name-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+
+.contact-form-name {
+  &__firstname {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  &__lastname {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.date {
+  @include form-control.date();
+}
+
+.textarea {
+  @include form-control.textarea();
+}
+
+.hint {
+  font-size: 0.7em;
+  margin-top: -2px;
+}
+
+.button {
+  padding: 13px 26px;
+  color: #081453;
+  border: 2px solid #081453;
+  background-color: transparent;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}

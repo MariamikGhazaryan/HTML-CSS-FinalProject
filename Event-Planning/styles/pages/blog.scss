@@ -16,7 +16,7 @@ main {
 .blogs-section {
   display: grid;
   grid-template-columns: 80% 20%;
-  column-gap: 3.125rem;
+  column-gap: 3rem;
 
   &-list-container {
 
@@ -65,9 +65,9 @@ main {
 }
 
 .blog-section-navigation-container {
-  padding: 0.938rem 1.25rem;
+  padding: 1rem 1.5rem;
   background: #ECE1DA75;
-  height: 14.375rem;
+  height: 15rem;
   text-align: left;
 }
 
@@ -86,14 +86,14 @@ main {
 
   &-input {
     border: 1px solid #ffffff;
-    padding: 0.938rem 1.875rem;
+    padding: 1em 2rem;
     background-color: transparent;
   }
 
   &-icon {
     position: absolute;
     top: 1rem;
-    left: 0.438rem;
+    left: 0.5em;
     color: #ffffff;
   }
 }

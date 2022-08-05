@@ -21,13 +21,16 @@ main {
 .experience-icon-list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   list-style-type: none;
 
   &__item {
+    width: 6rem;
+
     &-image {
-      width: 6.25rem;
+      max-width: 100%;
     }
   }
 }
@@ -35,13 +38,17 @@ main {
 .meet-employees-list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   list-style-type: none;
   font-size: 0.8rem;
   text-align: left;
 
   &__item {
+    width: 50%;
+
     &-image {
-      width: 31.25rem;
+      max-width: 100%;
+      max-height: 100%;
     }
 
     &-caption {
@@ -65,14 +72,14 @@ main {
 
 .sign-up__form {
   &-email {
-    padding: 0.625rem 1.25rem;
+    padding: 0.5rem 1.5rem;
     border: 1px solid rgba(0, 0, 0, .12);
     font-family: inherit;
-    width: 12.5rem;
+    width: 12rem;
   }
 
   &-submit {
-    padding: 0.688rem 1.25rem;
+    padding: 0.5rem 1.5rem;
     background-color: transparent;
     color: #b31459;
     border: 2px solid #b31459;

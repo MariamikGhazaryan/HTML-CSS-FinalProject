@@ -17,7 +17,7 @@ main {
 .contact-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  column-gap: 3.125rem;
+  column-gap: 3rem;
 }
 
 .contact-form {
@@ -77,11 +77,11 @@ main {
 
 .hint {
   font-size: 0.7rem;
-  margin-top: -0.125rem;
+  margin-top: -0.2rem;
 }
 
 .button {
-  padding: 0.813rem 1.625rem;
+  padding: 1rem 1.5rem;
   color: #081453;
   border: 2px solid #081453;
   background-color: transparent;
@@ -98,5 +98,6 @@ main {
 .contact-info {
   display: flex;
   flex-direction: row;
-  gap: 3.125rem;
+  flex-wrap: wrap;
+  gap: 3rem;
 }

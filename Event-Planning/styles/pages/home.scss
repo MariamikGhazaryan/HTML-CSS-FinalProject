@@ -26,7 +26,7 @@ main {
   }
 
   &__link {
-    padding: 0.813rem 1.625rem;
+    padding: 1rem 1.5rem;
     color: #fff;
     background-color: #b31459;
     text-decoration: none;
@@ -55,13 +55,15 @@ main {
 
   &__image {
     align-self: flex-start;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 
 .team-portfolio-container {
   @include home.portfolio-item('team-portfolio-container', #0a4a62, #ffffff);
-  margin-top: 6.25rem;
-  margin-left: -6.25rem;
+  margin-top: 6rem;
+  margin-left: -6rem;
 }
 
 .clients-portfolio {
@@ -69,13 +71,15 @@ main {
 
   &__image {
     align-self: flex-start;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
 
 .clients-portfolio-container {
   @include home.portfolio-item('clients-portfolio-container', #0a4a62, #ffffff);
   margin-top: 12rem;
-  margin-left: -6.25rem;
+  margin-left: -6rem;
 }
 
 .follow-us {
@@ -88,13 +92,16 @@ main {
 
 .follow-us-list {
   display: flex;
-  list-style-type: none;
   justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
 
   &__item {
+    width: 15%;
+    height: 10rem;
     &-image {
-      width: 12.5rem;
-      height: 12.5rem;
+      max-width: 100%;
+      max-height: 100%;
       object-fit: cover;
     }
   }
